@@ -6,9 +6,9 @@ This project implements a Convolutional Neural Network (CNN) model based on a Re
 This project aims to develop a model capable of classifying images of teeth into different disease categories. The dataset consists of labeled images organized into separate folders for training, validation, and testing. The model is built using a residual network (ResNet) structure, which helps in handling deeper models more effectively.
 
 # Prerequisites
-Python 3.x
-TensorFlow 2.x
-Keras
+    -Python 3.x
+    -TensorFlow 2.x
+    -Keras
 
 # Augmentation
 Data augmentation is performed during training to generate new images from the existing training set, helping to prevent overfitting.
