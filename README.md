@@ -20,8 +20,11 @@ The images were also normalized by scaling pixel values to the range [0, 1].
 The model was trained over 200 epochs with the following configuration:
 
 Batch Size: 32
+
 Optimizer: Adam
+
 Loss Function: sparse_categorical_crossentropy
+
 Metrics: Accuracy
 
 # Model Architecture
