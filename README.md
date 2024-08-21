@@ -9,15 +9,29 @@ This project aims to develop a model capable of classifying images of teeth into
     -Python 3.x
     -TensorFlow 2.x
     -Keras
+    -numpy
+    -matplotlib
+# Data Augmentation and Preprocessing
+The training data was augmented to increase the diversity of the dataset, helping the model generalize better. Augmentation techniques included rotation, zoom, and horizontal flipping.
 
-# Augmentation
-Data augmentation is performed during training to generate new images from the existing training set, helping to prevent overfitting.
+The images were also normalized by scaling pixel values to the range [0, 1].
+
+# Training
+The model was trained over 200 epochs with the following configuration:
+
+Batch Size: 32
+Optimizer: Adam
+Loss Function: sparse_categorical_crossentropy
+Metrics: Accuracy
 
 # Model Architecture
 The model uses a ResNet-based architecture, which includes residual blocks that help in training deeper networks by allowing gradients to bypass certain layers, thereby mitigating the vanishing gradient problem.
 
 # Residual Block Structure
 Each residual block consists of two convolutional layers followed by a skip connection that adds the input of the block to the output.
+
+# Model Performance
+The model achieved an accuracy of 87%, indicating a high level of performance in classifying the various teeth diseases.
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
