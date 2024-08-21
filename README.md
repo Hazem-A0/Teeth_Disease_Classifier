@@ -25,7 +25,7 @@ Loss Function: sparse_categorical_crossentropy
 Metrics: Accuracy
 
 # Model Architecture
-The model uses a ResNet-based architecture, which includes residual blocks that help in training deeper networks by allowing gradients to bypass certain layers, thereby mitigating the vanishing gradient problem.
+The model uses a architecture, which includes residual blocks that help in training deeper networks by allowing gradients to bypass certain layers, thereby mitigating the vanishing gradient problem.
 
 # Residual Block Structure
 Each residual block consists of two convolutional layers followed by a skip connection that adds the input of the block to the output.
