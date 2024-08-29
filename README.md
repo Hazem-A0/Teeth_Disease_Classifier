@@ -36,5 +36,13 @@ Each residual block consists of two convolutional layers followed by a skip conn
 # Model Performance
 The model achieved an accuracy of 87%, indicating a high level of performance in classifying the various teeth diseases.
 
+# App deployment 
+
+![image](https://github.com/user-attachments/assets/e8754ee6-0bb5-4472-a483-86c96d770a3d)
+
+
+![image](https://github.com/user-attachments/assets/a0204f3c-7b3f-42bd-a8b5-ae59643a312d)
+
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
